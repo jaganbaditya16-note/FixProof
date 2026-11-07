@@ -1,0 +1,38 @@
+﻿# Python
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Databases
+*.db
+*.sqlite
+*.sqlite3
+
+# FixProof runtime data
+.fixproof/
+storage/
+logs/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Frontend artifacts
+node_modules/
+.next/
+coverage/
+
+# IDE and operating system
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
